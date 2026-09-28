@@ -155,7 +155,7 @@ if (!isset($_SESSION['status']) || $_SESSION['status'] != "login") {
 <body>
 
     <video autoplay muted loop id="bg-video">
-        <source src="assET/Untitled video - Made with Clipchamp (3).mp4" type="video/mp4">
+        <source src="asset/gow_trailer.mp4" type="video/mp4">
     </video>
 
     <button id="sound-btn">🔊 ENABLE SOUND</button>
@@ -183,6 +183,7 @@ if (!isset($_SESSION['status']) || $_SESSION['status'] != "login") {
         <div class="nav-links">
             <a href="#" class="active">HOME</a>
             <a href="series.php">SERIES</a>
+            <a href="realms.php">REALMS</a>
             <a href="about.php">ABOUT</a>
         </div>
 

@@ -222,6 +222,7 @@ if (!isset($_SESSION['status']) || $_SESSION['status'] != "login") {
         <div class="nav-links">
             <a href="home.php">HOME</a>
             <a href="series.php">SERIES</a>
+            <a href="realms.php">REALMS</a>
             <a href="about.php" class="active">ABOUT</a>
         </div>
         <a href="logout.php" class="logout-btn">LOGOUT</a>
